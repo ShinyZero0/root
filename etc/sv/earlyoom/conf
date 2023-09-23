@@ -1,1 +1,1 @@
-OPTS="--prefer '.*python.*' -n -p -s 5 -m 5"
+OPTS="--prefer 'node.*' -n -p -s 5 -m 5"

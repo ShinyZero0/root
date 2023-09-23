@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+PATH="/root/.guix-profile/bin:$PATH"
+exec entr -np /etc/scripts/xbps-packages.sh < <(ls /var/db/xbps/pkgdb-*.plist)

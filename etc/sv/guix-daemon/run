@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+exec 2>&1
+~root/.config/guix/current/bin/guix-daemon --build-users-group=guixbuild
